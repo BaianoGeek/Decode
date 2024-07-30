@@ -52,7 +52,7 @@ match identifier:
         exit()
 
 # Abrir Wordlist
-with open('/home/dexter/Documentos/Códigos/Cronos/wl.txt', 'r') as file:
+with open('wl.txt', 'r') as file:
     passwords =  [line.strip() for line in file]
  
 #Iniciando contador de vezes que passou pelo loop abaixo
